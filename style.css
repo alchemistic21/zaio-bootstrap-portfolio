@@ -21,18 +21,37 @@ body {
   box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
 }
 
-.cover-container {
-  max-width: 42em;
-}
-
 
 /*
  * Header
  */
 
+ .banner-wrap {
+  background-image: url();
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-bottom: 10px solid #222222;
+  position: relative;
+  z-index: 1;
+}
+.overlay {
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  background: black;
+  opacity: 60%;
+  position: absolute;
+  top: 0;
+}
+
+
 .nav-masthead .nav-link {
-  color: rgba(255, 255, 255, .5);
-  border-bottom: .25rem solid transparent;
+  padding: 0.25rem 0;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.5);
+  background-color: transparent;
+  border-bottom: 0.25rem solid transparent;
 }
 
 .nav-masthead .nav-link:hover,
