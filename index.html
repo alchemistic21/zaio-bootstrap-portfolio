@@ -15,7 +15,11 @@
     
           <!-- bootstrap css -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <style>
+
+<!-- Bootstrap Icons -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+    <!-- <style>
       .bd-placeholder-img {
         font-size: 1.125rem;
         text-anchor: middle;
@@ -66,33 +70,177 @@
         white-space: nowrap;
         -webkit-overflow-scrolling: touch;
       }
-    </style>
+    </style> -->
 
     
     <!-- Custom styles for this template -->
     <link href="style.css" rel="stylesheet">
   </head>
-  <body class="bg-dark">
-    
-    <header class="p-5 text-white">
-      <div>
-        <h3 class="float-md-start mb-0">Portfolio</h3>
-        <nav class="nav nav-masthead justify-content-center float-md-end">
-          <a class="nav-link fw-bold py-1 px-0 active" aria-current="page" href="#">Home</a>
-          <a class="nav-link fw-bold py-1 px-0" href="#">Features</a>
-          <a class="nav-link fw-bold py-1 px-0" href="#">Contact</a>
-        </nav>
-      </div>
-    </header>
-<div class="banner-wrap vh-100 vw-100 text-white">
+  <body class="bg-light">
+      <header class="px-5 p-3 text-white fixed-top">
+        <div>
+          <h3 class="float-md-start text-center">Portfolio</h3>
+          <nav class="nav nav-masthead justify-content-center float-md-end">
+            <a class="nav-link fw-bold py-1 px-0 active" aria-current="page" href="#">Home</a>
+            <a class="nav-link fw-bold py-1 px-0" href="#about-us">About Us</a>
+            <a class="nav-link fw-bold py-1 px-0" href="#projects">Projects</a>
+            <a class="nav-link fw-bold py-1 px-0" href="#contact">Contact</a>
+          </nav>
+        </div>
+      </header>
+      <div class="banner-wrap vh-100 vw-100 d-flex align-items-center justify-content-center text-white">
+        <div class="overlay"></div>
 
-  <main class="d-flex flex-column align-items-center justify-content-center h-100 text-center">
-    <h1 class="display-1">I am Alchemy</h1>
-    <p class="lead">Fullstack Developer. Coding Student. HR graduate. Poet</p>
-  </main>
+      <main class="text-center">
+        <h1 class="display-1">I am Alchemy</h1>
+        <span id="typed" class="lead"></span>
+      </main>
 </div>
+      
+  <section id="about-us">
+    <div class="container p-5">
+      <div class="card">
+        <div class="card-body">
+          <div class="row p-3">
+            <div class="col-md-6 col-sm-12">
+              <div class="row">
+                <div class="col-md-5">
+                  <img src="https://scontent.fjnb8-1.fna.fbcdn.net/v/t1.6435-9/129648592_1021397361680003_1831270762475562105_n.jpg?stp=dst-jpg_p206x206&_nc_cat=107&ccb=1-7&_nc_sid=da31f3&_nc_eui2=AeGxeKxGU260IbZ3hdmz9fEKcyWl5kZPzRRzJaXmRk_NFAYShkEDR70RAJoJrkFwr8-jQ211YTI0xD9sslwWtTfI&_nc_ohc=S8_54k9bSE0AX8Tq0K6&_nc_ht=scontent.fjnb8-1.fna&oh=00_AfAX3dos-wY1bAtW-XXjwBVzviGuEt7K2ocp5Yzjlpdi-A&oe=639329A2" class="img-fluid" alt="...">
+                </div>
+                <div class="col-md-7 mt-3">
+                  <p><strong>Name:</strong> Preston Saayman</p>
+                  <p><strong>Profile:</strong> Fullstack Developer</p>
+                  <p><strong>Email:</strong> prestonsaayman@gmail.com</p>
+                  <p><strong>Phone Contact:</strong> 076 249 9379</p>
+                  <p><strong>Skill:</strong>
+                    <span class="badge text-bg-dark">HTML</span>
+                    <span class="badge text-bg-dark">CSS</span>
+                    <span class="badge text-bg-dark">git</span>
+                    <span class="badge text-bg-dark">javascript</span>
+                    <span class="badge text-bg-dark">firebased</span>
+                    <span class="badge text-bg-dark">OOP</span>
+                    <span class="badge text-bg-dark">ReactJS</span>
+                    <span class="badge text-bg-dark">Redux</span>
+                    <span class="badge text-bg-dark">NodeJS</span>
+                    <span class="badge text-bg-dark">MongoDB</span>
+                    <span class="badge text-bg-dark">Express</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 mt-3">
+              <h1 class="text-center text-md-start"><mark>About me</mark></h1>
+              <p class="lead">Skills and characteristics</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <section id="projects">
+      <div class="container px-5 p-3">
+        <h1 class="text-center"><mark>Projects</mark></h1>
+        <div class="row">
+          <div class="col-md-4 mt-3">
+                <div class="card">
+                  <img src="https://zaiocontent.s3.eu-west-2.amazonaws.com/images+of+courses/css_netflix.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Netflix Landing Page</h5>
+                    <p class="card-text">Built this with HTML and CSS</p>
+                    <a href="https://voluble-pudding-c01bda.netlify.app" class="btn btn-primary">View Website</a>
+                    <a href="https://github.com/alchemistic21/zaio-git-netflix" class="btn btn-outline-dark"><i class="bi bi-code-slash"></i></a>
+                  </div>
+                </div>
+          </div>
+
+          <div class="col-md-4 mt-3">
+            <div class="card">
+              <img src="http://res.cloudinary.com/ak-124210/image/upload/v1642434078/yjnzwmihmhghxkwnb6n9.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Twitter Clone</h5>
+                <p class="card-text">Built this with HTML and CSS</p>
+                <a href="https://helpful-sundae-b88442.netlify.app" class="btn btn-primary">View Website</a>
+                <a href="#" class="btn btn-outline-dark"><i class="bi bi-code-slash"></i></a>
+              </div>
+            </div>
+      </div>
+
+      <div class="col-md-4 mt-3">
+        <div class="card">
+          <img src="https://zaiocontent.s3.eu-west-2.amazonaws.com/images+of+courses/Tesla.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Tesla Landing Page</h5>
+            <p class="card-text">Built this with HTML and CSS</p>
+            <a href="https://zingy-kulfi-a02025.netlify.app/" class="btn btn-primary">View Website</a>
+            <a href="#" class="btn btn-outline-dark"><i class="bi bi-code-slash"></i></a>
+          </div>
+        </div>
+  </div>
 
 
-    
+        </div>
+
+
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container p-5">
+        <div class="card p-3">
+          <div class="card-body px-5 text-center">
+            <h1><mark>Let's Connect!</mark></h1>
+            <p class="lead">Would love to connect with fellow developers, employers looking for developers, or anyone looking to get technical web development done.</p>
+            <a class="fs-2" href="https://www.instagram.com/alchemy_an_empath/" target="_blank"><i class="bi bi-instagram m-2"></i></a>
+            <a class="fs-2" href="" target="_blank"><i class="bi bi-linkedin m-2"></i></a>
+            <a class="fs-2" href="" target="_blank"><i class="bi bi-github m-2"></i></a>
+
+
+            <form>
+              <div class="mb-3">
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Email Address">
+              </div>
+              <div class="mb-3">
+                <input type="text" class="form-control" id="name" placeholder="Enter Name">
+              </div>
+              <div class="mb-3">
+                <input type="text" class="form-control" id="name" placeholder="Enter Subject">
+              </div>
+
+              <div class="mb-3">
+                <textarea class="form-control" aria-label="With textarea" placeholder="Enter Message"></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+<footer class="bg-dark text-center text-white">
+<div class="container p-3">
+<p>Developed by Preston Saayman using Bootstrap, for Zaio Bootstrap course</p>
+</div>
+</footer>
+
+
+    <script>
+      window.addEventListener("scroll", () => {
+        const header = document.querySelector("header")
+        header.classList.toggle("scrolling", window.scrollY > 0)
+      })
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+      var typed = new Typed('#typed', {
+        strings: ['Fullstack Developer.','Coding Student.',' HR graduate.',' Poet.',' Motivator.'],
+        loop: true,
+        typeSpeed: 40,
+        shuffle: true,
+      });
+    </script>
+
   </body>
 </html>
